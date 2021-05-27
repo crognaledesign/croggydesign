@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622150561308">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622150907054">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="184970069" ref="index:contact:typeface:stress"/>
@@ -33,17 +33,17 @@
     <file name="form_check.php" crc="4108222811" ref="contact"/>
     <file name="form_throttle.php" crc="503802655" ref="contact"/>
     <file name="form_process.php" crc="260214869" ref="contact"/>
-    <file name="form-u1674.php" crc="4129487760" ref="contact"/>
+    <file name="form-u1674.php" crc="379869070" ref="contact"/>
   </folder>
   <folder name="images">
     <file name="artboard-11glow.svg" crc="3890517122" seo="true" ref="index:typeface:stress:contact">
       <caption webpage="index" alt=""/>
-      <caption webpage="typeface" alt=""/>
       <caption webpage="stress" alt=""/>
+      <caption webpage="typeface" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
-    <file name="artboard 11glow_poster_.png" crc="230737915" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="artboard 11glow_poster_.png" crc="230737915" ref="index:contact"/>
+    <file name="blank.gif" crc="4208392903" ref="index:contact"/>
     <file name="artboard-13glow.svg" crc="3895603119" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -70,11 +70,11 @@
     </file>
     <file name="pasted-svg-270621x40.svg" crc="74353161" seo="true" ref="index:typeface:stress:contact">
       <caption webpage="index" alt=""/>
-      <caption webpage="typeface" alt=""/>
       <caption webpage="stress" alt=""/>
+      <caption webpage="typeface" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
-    <file name="pasted svg 270621x40_poster_.png" crc="85851254" ref="index"/>
+    <file name="pasted svg 270621x40_poster_.png" crc="85851254" ref="index:contact"/>
     <file name="artboard 14type.png" crc="5614237" seo="true" ref="typeface">
       <caption webpage="typeface" alt=""/>
     </file>
@@ -82,5 +82,5 @@
   <file name="index.html" crc="3779364318" seo="true" mt="1622150280627" redirect="true"/>
   <file name="typeface.html" crc="4178274775" seo="true" mt="1622150280627" redirect="true"/>
   <file name="stress.html" crc="364405777" seo="true" mt="1622150280627" redirect="true"/>
-  <file name="contact.html" crc="64062443" seo="true" mt="1622150280628" redirect="true"/>
+  <file name="contact.html" crc="342721087" seo="true" mt="1622150868704" redirect="true"/>
 </manifest>
