@@ -58,6 +58,18 @@
     </image:image>
   </url>
   <url>
+    <loc>http://croggy.com/untitled-4.html</loc>
+    <lastmod>2021-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://croggy.com/images/artboard-11glow.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://croggy.com/images/pasted-svg-270621x40.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>http://croggy.com/assets/intro.mp4</loc>
     <lastmod>2021-05-04</lastmod>
     <changefreq>weekly</changefreq>

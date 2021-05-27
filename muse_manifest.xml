@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.com" resolutions="1x" timestamp="1622148703529">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622149831231">
   <folder name="assets">
     <file name="intro.mp4" crc="334220546" seo="true" mt="1620144682000"/>
   </folder>
@@ -18,28 +18,35 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="184970069" ref="index:typeface:stress"/>
+    <file name="master_a-master.css" crc="184970069" ref="index:typeface:stress:untitled-4"/>
     <file name="index.css" crc="3809395010" ref="index"/>
     <file name="typeface.css" crc="3816651355" ref="typeface"/>
     <file name="stress.css" crc="4066274928" ref="stress"/>
+    <file name="untitled-4.css" crc="3781136590" ref="untitled-4"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:typeface:stress"/>
-    <file name="museutils.js" crc="3939489907" ref="index:typeface:stress"/>
-    <file name="whatinput.js" crc="86476730" ref="index:typeface:stress"/>
-    <file name="museconfig.js" crc="3936894949" ref="index:typeface:stress"/>
-    <file name="jquery.watch.js" crc="522499760" ref="index:typeface:stress"/>
-    <file name="require.js" crc="4177726516" ref="index:typeface:stress"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:typeface:stress:untitled-4"/>
+    <file name="museutils.js" crc="3939489907" ref="index:typeface:stress:untitled-4"/>
+    <file name="whatinput.js" crc="86476730" ref="index:typeface:stress:untitled-4"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:typeface:stress:untitled-4"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:typeface:stress:untitled-4"/>
+    <file name="require.js" crc="4177726516" ref="index:typeface:stress:untitled-4"/>
     <file name="jquery.scrolleffects.js" crc="312044820" ref="stress"/>
+    <file name="webpro.js" crc="3856315280" ref="untitled-4"/>
+    <file name="form_check.php" crc="4108222811" ref="untitled-4"/>
+    <file name="form_throttle.php" crc="503802655" ref="untitled-4"/>
+    <file name="form_process.php" crc="260214869" ref="untitled-4"/>
+    <file name="form-u1674.php" crc="4287882412" ref="untitled-4"/>
   </folder>
   <folder name="images">
-    <file name="artboard-11glow.svg" crc="3890517122" seo="true" ref="index:typeface:stress">
+    <file name="artboard-11glow.svg" crc="3890517122" seo="true" ref="index:typeface:stress:untitled-4">
       <caption webpage="index" alt=""/>
-      <caption webpage="typeface" alt=""/>
       <caption webpage="stress" alt=""/>
+      <caption webpage="typeface" alt=""/>
+      <caption webpage="untitled-4" alt=""/>
     </file>
-    <file name="artboard 11glow_poster_.png" crc="230737915" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="artboard 11glow_poster_.png" crc="230737915" ref="index:untitled-4"/>
+    <file name="blank.gif" crc="4208392903" ref="index:untitled-4"/>
     <file name="artboard-13glow.svg" crc="3895603119" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -64,12 +71,13 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pasted-svg-270621x40.svg" crc="74353161" seo="true" ref="index:typeface:stress">
+    <file name="pasted-svg-270621x40.svg" crc="74353161" seo="true" ref="index:typeface:stress:untitled-4">
       <caption webpage="index" alt=""/>
-      <caption webpage="typeface" alt=""/>
       <caption webpage="stress" alt=""/>
+      <caption webpage="typeface" alt=""/>
+      <caption webpage="untitled-4" alt=""/>
     </file>
-    <file name="pasted svg 270621x40_poster_.png" crc="85851254" ref="index"/>
+    <file name="pasted svg 270621x40_poster_.png" crc="85851254" ref="index:untitled-4"/>
     <file name="artboard 14type.png" crc="5614237" seo="true" ref="typeface">
       <caption webpage="typeface" alt=""/>
     </file>
@@ -77,4 +85,5 @@
   <file name="index.html" crc="392165264" seo="true" mt="1622143943007" redirect="true"/>
   <file name="typeface.html" crc="88788323" seo="true" mt="1622144744135" redirect="true"/>
   <file name="stress.html" crc="4260707699" seo="true" mt="1622143701946" redirect="true"/>
+  <file name="untitled-4.html" crc="354647775" seo="true" mt="1622149784832" redirect="true"/>
 </manifest>
