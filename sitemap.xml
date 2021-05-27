@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://fulmine.design/index.html</loc>
+    <loc>http://croggy.design/index.html</loc>
     <lastmod>2021-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://fulmine.design/images/fulmine%20logo%20w%20text.jpg</image:loc>
+      <image:loc>http://croggy.design/images/fulmine%20logo%20w%20text.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://fulmine.design/images/artboard-3instagram.svg</image:loc>
+      <image:loc>http://croggy.design/images/artboard-3instagram.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://fulmine.design/images/artboard-3youtube.svg</image:loc>
+      <image:loc>http://croggy.design/images/artboard-3youtube.svg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://fulmine.design/assets/fulmine-bumper.mp4</loc>
-    <lastmod>2021-03-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
