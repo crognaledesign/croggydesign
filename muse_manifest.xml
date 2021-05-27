@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622151567139">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622151745830">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="184970069" ref="index:contact:typeface:stress"/>
     <file name="index.css" crc="3809395010" ref="index"/>
-    <file name="contact.css" crc="3781136590" ref="contact"/>
+    <file name="contact.css" crc="3951517356" ref="contact"/>
     <file name="typeface.css" crc="3816651355" ref="typeface"/>
     <file name="stress.css" crc="4066274928" ref="stress"/>
   </folder>
@@ -29,11 +29,6 @@
     <file name="jquery.watch.js" crc="522499760" ref="index:typeface:stress:contact"/>
     <file name="require.js" crc="4177726516" ref="index:typeface:stress:contact"/>
     <file name="jquery.scrolleffects.js" crc="312044820" ref="stress"/>
-    <file name="webpro.js" crc="3856315280" ref="contact"/>
-    <file name="form_check.php" crc="4108222811" ref="contact"/>
-    <file name="form_throttle.php" crc="503802655" ref="contact"/>
-    <file name="form_process.php" crc="260214869" ref="contact"/>
-    <file name="form-u1674.php" crc="317619563" ref="contact"/>
   </folder>
   <folder name="images">
     <file name="artboard-11glow.svg" crc="3890517122" seo="true" ref="index:typeface:stress:contact">
@@ -82,5 +77,5 @@
   <file name="index.html" crc="3779364318" seo="true" mt="1622150280627" redirect="true"/>
   <file name="typeface.html" crc="4178274775" seo="true" mt="1622150280627" redirect="true"/>
   <file name="stress.html" crc="364405777" seo="true" mt="1622150280627" redirect="true"/>
-  <file name="contact.html" crc="342721087" seo="true" mt="1622151561370" redirect="true"/>
+  <file name="contact.html" crc="388570409" seo="true" mt="1622151740367" redirect="true"/>
 </manifest>
