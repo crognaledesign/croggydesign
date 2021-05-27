@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622150907054">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622151567139">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="184970069" ref="index:contact:typeface:stress"/>
@@ -33,7 +33,7 @@
     <file name="form_check.php" crc="4108222811" ref="contact"/>
     <file name="form_throttle.php" crc="503802655" ref="contact"/>
     <file name="form_process.php" crc="260214869" ref="contact"/>
-    <file name="form-u1674.php" crc="379869070" ref="contact"/>
+    <file name="form-u1674.php" crc="317619563" ref="contact"/>
   </folder>
   <folder name="images">
     <file name="artboard-11glow.svg" crc="3890517122" seo="true" ref="index:typeface:stress:contact">
@@ -82,5 +82,5 @@
   <file name="index.html" crc="3779364318" seo="true" mt="1622150280627" redirect="true"/>
   <file name="typeface.html" crc="4178274775" seo="true" mt="1622150280627" redirect="true"/>
   <file name="stress.html" crc="364405777" seo="true" mt="1622150280627" redirect="true"/>
-  <file name="contact.html" crc="342721087" seo="true" mt="1622150868704" redirect="true"/>
+  <file name="contact.html" crc="342721087" seo="true" mt="1622151561370" redirect="true"/>
 </manifest>
