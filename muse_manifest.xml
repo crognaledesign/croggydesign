@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622158508614">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622158592695">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="4118093921" ref="index"/>
@@ -27,5 +27,5 @@
     <file name="artboard 3youtube_poster_.png" crc="3886457934" ref="index"/>
     <file name="favicon.ico" crc="511057784" ref="index"/>
   </folder>
-  <file name="index.html" crc="4017704206" seo="true" mt="1622158498500" redirect="true"/>
+  <file name="index.html" crc="3759431512" seo="true" mt="1622158573771" redirect="true"/>
 </manifest>
