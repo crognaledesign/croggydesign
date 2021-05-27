@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622158751833">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622159034773">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="4087906060" ref="index"/>
-    <file name="index.css" crc="4253850592" ref="index"/>
+    <file name="index.css" crc="167761940" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index"/>
-    <file name="nomq_index.css" crc="4216729281" ref="index"/>
+    <file name="nomq_index.css" crc="246608931" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -16,7 +16,7 @@
     <file name="jquery.museresponsive.js" crc="95814420" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="u122-4.png" crc="3932754652" ref="index"/>
+    <file name="u122-4.png" crc="3825874307" ref="index"/>
     <file name="artboard-3instagram.svg" crc="4291135748" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -28,13 +28,11 @@
     </file>
     <file name="artboard 3youtube_poster_.png" crc="3886457934" ref="index"/>
     <file name="favicon.ico" crc="511057784" ref="index"/>
-    <file name="fulmine logo w text376x133.jpg" crc="359976120" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="fulmine logo w text157x56.jpg" crc="3908245457" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="fulmine logo w text.png" crc="359976120" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4253163446" seo="true" mt="1622158740407" redirect="true"/>
+  <file name="index.html" crc="61909075" seo="true" mt="1622159022564" redirect="true"/>
 </manifest>
