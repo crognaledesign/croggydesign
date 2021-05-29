@@ -45,7 +45,7 @@ nav a:hover {
     color:#00ADEE;
 }
 .Headercontent {
-    margin-top: 0.5rem;
+    margin-top: 6rem;
     font-size: 2rem;
     font-family: 'Dela Gothic One';
     margin-left: 14rem;
@@ -84,7 +84,7 @@ aside {
     text-decoration: none;
     padding-right: 1rem;
     margin-left: 16rem; 
-    margin-top: 0rem;
+    margin-top: 4rem;
 }
 .IconList img {
     width: 3.5rem;
@@ -94,7 +94,19 @@ aside {
     text-decoration: none;
     padding-right: 1rem;
     margin-left: 1rem; 
-    font-family: Saira;
+    font-family: 'Saira';
+    font-size: 2rem;
+    top: 0;
+    margin-top: 4rem;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    color: #F5F5F5;
+}
+.projectTitle {
+    padding-right: 1rem;
+    margin-left: 1rem; 
+    font-family: 'Saira';
     font-size: 2rem;
     top: 0;
     margin-top: 0rem;
@@ -103,19 +115,34 @@ aside {
     padding-bottom: 1rem;
     color: #F5F5F5;
 }
+.projectBio {
+    padding-right: 1rem;
+    font-family: 'Saira';
+    font-size: 1.4rem;
+    top: 0;
+    margin-left: 1rem;
+    margin-top: 0rem;
+    font-weight: 600;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    color: black;
+}
 .workProjects {
     background-color: #F5F5F5;
     width: 100%;
     padding-bottom: 16rem;
     margin: auto;
+    margin-top: 16rem;
+    padding-top: 16rem;
 }
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: #F5F5F5;
     padding-bottom: 4rem;
     padding-top:2rem;
+    z-index: 5;
 }
 .connect {
     font-size: 1.5rem;
@@ -127,14 +154,16 @@ footer {
 .email {
     font-size: 1rem;
     font-family: 'Saira';
-    margin-left: 2rem;
+    margin-left: 8rem;
     font-weight: 400;
     line-height: 1rem;
     color:#00ADEE;
 }
 .project1 {
-    margin-top: 6rem;
     margin-left: 14rem;
+}
+.arrow a:hover {
+    color: #00ADEE;
 }
 
 

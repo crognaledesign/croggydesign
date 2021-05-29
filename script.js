@@ -28,8 +28,6 @@ anime({
 */
 
 
-  anime.playWhenTargetsVisible = true;
-
   anime({
     targets: '.Headercontent',
     translateX: [-10, 0], // from 100 to 250
@@ -48,3 +46,59 @@ anime({
     delay: anime.stagger(100),
     easing: 'easeOutExpo'
 })
+
+
+
+
+ /*  anime({
+  targets: '.arrow',
+  keyframes: [
+    {translateX: 10},
+    {translateX: 0},
+  ],
+  duration: 2000,
+  easing: 'easeInOutQuad',
+  loop: true
+}) */
+
+
+var buttonEl = document.querySelector('.arrow');
+
+function animateButton(duration) {
+  anime.remove('.arrow');
+  anime({
+    targets: '.arrow',
+    keyframes: [
+      {translateX:10},
+      {translateX:0},
+    ],
+    duration: 2000,
+    easing:'easeInOutQuad',
+    loop: true
+  });
+}
+
+function enterButton() { anime({
+    targets: '.arrow',
+    keyframes: [
+      {translateX:10},
+      {translateX:0},
+    ],
+    duration: 2000,
+    easing:'easeInOutQuad',
+    loop: false
+  });};
+
+  function leaveButton() { anime({
+    targets: '.arrow',
+    keyframes: [
+      {translateX:0},
+    ],
+    duration: 2000,
+    easing:'easeInOutQuad',
+    loop:false
+  });};
+
+
+buttonEl.addEventListener('mouseenter', enterButton, false);
+buttonEl.addEventListener('mouseleave', leaveButton, false);
