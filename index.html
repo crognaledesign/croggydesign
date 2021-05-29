@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+  <!--Navigation Bar-->
   <span class="row end-md">
   <nav class="col-md-8">
     <ul class="nav row middle-xs around-xs">
@@ -22,10 +24,12 @@
     </ul>
 	</nav>
 </span>
+
+<!--Title Blurb-->
 <section class="row">
-  
+
   <section class="Headercontent col-md-7">
-    <h2><span style="color: #F5F5F5;">Hey, I'm Luca.</span> I'm a Pokémon Trainer, a Keyblade wielder and I have an obsession with Japanese culture</h2>
+    <h2><span style="color: black;">Hey, I'm Luca.</span> I'm a Pokémon Trainer, a Keyblade wielder and I have an obsession with Japanese culture</h2>
   </section>
     <aside class="japanese">くろぎ</aside>
   <section  class="row">
@@ -48,24 +52,47 @@
 </section>
 
 
-<section class="row middle-xs workProjects">
-    <img class="project1 col-md-4" src="images/croogetn.png" alt="Croggy Thumbnail">
-      <box class="col-md-5">
+<!--Projects-->
+<section class="workProjects">
+  <div class="row middle-xs"> 
+    <img class="project col-md-4" src="images/voxl.png" alt="VOXL Thumbnail">
+      <box class="descriptor col-md-5">
         <h4 class="projectTitle" style="color: black">VOXL Typeface</h4>
         <p class="projectBio">A square typeface loosely based on the Twitch wordmark<br>designed for esports and gaming.</p>
         <ul>
-          <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a href="http://fulmine.design"><img class="arrow" style="width: 2rem;" src="images/arrow.svg"/></a></li>
+          <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a class="selector" href="voxl.html"><img class="arrow" style="width: 2rem;" src="images/arrow.svg"/></a></li>
         </ul>
       </box>
-    </section>
+    </div>
 
+    <div class="row middle-xs"> 
+      <img class="project col-md-4" src="images/manic.png" alt="Manic Thumbnail">
+        <box class="descriptor col-md-5">
+          <h4 class="projectTitle" style="color: black">Manic Video</h4>
+          <p class="projectBio">A video project meant to detail the definition of the<br>word manic, visually and cohesively.</p>
+          <ul>
+            <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a class="selector" href="http://fulmine.design/manic.html"><img class="arrow" style="width: 2rem;" src="images/arrow.svg"/></a><p style="text-decoration-style: none; color: #ED1848; font-family: 'Saira'; font-weight: 600; font-size: 1.2rem;">Link Coming Soon</p></li>
+          </ul>
+        </box>
+      </div>
+  </section>
+    
+
+
+<!--Footer-->
 <footer>
   <div class="row top-xs">
-  <h3  class="connect">Down to connect? Shoot me a message.</h3>
-  <h3 class="email">croggy.design@outlook.com</h3>
+    <h3  class="connect">Down to connect? Shoot me a message.</h3>
+    <h3 class="email">croggy.design@outlook.com</h3>
+  </div>
+  <div class="row bottom-xs">
+    <h3 class="rights">2021 &copy; Luca Crognale-Manzoli</h3>
+    <img class="footericons" src="images/footericons.svg" alt="icons">
   </div>
 </footer>
 
+
+<!--Scripts-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="script.js"></script>

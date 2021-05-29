@@ -14,6 +14,10 @@ body {
     height: auto;
     background-color:#00ADEE;
     overflow-x: hidden;
+    background-image: url(background.png);
+    background-position-x: -30rem;
+    background-position-y: -16rem;
+    background-clip: inherit;
 }
 .logo {
     width: 8rem;
@@ -60,8 +64,9 @@ aside {
     right: 0;
     padding-top:8rem;
     top:0;
-    height: 100%;
+    height: 200%;
     width: 24rem;
+    position: fixed;
 }
 .japanese {
     z-index: 4;
@@ -127,22 +132,24 @@ aside {
     padding-bottom: 1rem;
     color: black;
 }
+.descriptor {
+    margin-top: 16rem;
+}
 .workProjects {
     background-color: #F5F5F5;
     width: 100%;
-    padding-bottom: 16rem;
+    padding-bottom: 32rem;
     margin: auto;
-    margin-top: 16rem;
-    padding-top: 16rem;
+    margin-top: 6rem;
 }
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #F5F5F5;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     padding-top:2rem;
-    z-index: 5;
+    z-index: 0;
 }
 .connect {
     font-size: 1.5rem;
@@ -154,16 +161,30 @@ footer {
 .email {
     font-size: 1rem;
     font-family: 'Saira';
-    margin-left: 8rem;
+    margin-left: 24.25rem;
     font-weight: 400;
     line-height: 1rem;
     color:#00ADEE;
 }
-.project1 {
-    margin-left: 14rem;
+.footericons {
+    margin-left: 35.75rem;
+    height: 3rem;
+    padding-top: 0.5rem;
+    margin-top:0.5rem;
 }
-.arrow a:hover {
-    color: #00ADEE;
+.rights {
+    font-size: 1rem;
+    font-family: 'Saira';
+    font-weight: 400;
+    line-height: 0rem;
+    vertical-align: center;
+    margin-left: 15rem;
+    padding-bottom: 1.15rem;
+}
+.project {
+    margin-left: 14rem;
+    margin-top: 16rem;
+    border-radius: 24rem;
 }
 
 

@@ -47,6 +47,16 @@ anime({
     easing: 'easeOutExpo'
 })
 
+anime({
+  targets: '.logo',
+  scale: [0,1],
+  opacity: [0,1],
+  duration: 1000,
+  easing: 'easeOutExpo',
+});
+
+
+
 
 
 
@@ -62,7 +72,7 @@ anime({
 }) */
 
 
-var buttonEl = document.querySelector('.arrow');
+/* var buttonEl = document.querySelector('.arrow');
 
 function animateButton(translateX, duration, elasticity) {
   anime.remove(buttonEl);
@@ -78,4 +88,28 @@ function enterButton() { animateButton(10.0, 800, 1000) };
 function leaveButton() { animateButton(1.0, 600, 0) };
 
 buttonEl.addEventListener('mouseenter', enterButton, false);
-buttonEl.addEventListener('mouseleave', leaveButton, false);
+buttonEl.addEventListener('mouseleave', leaveButton, false); */
+
+
+let services = document.querySelectorAll('.selector');
+services.forEach((service) => {
+  service.addEventListener('mouseenter', (event) => {
+    anime.remove(service.querySelector('.arrow'));
+    anime({
+      targets: service.querySelector('.arrow'),
+      easing: 'easeOutExpo',
+      translateX: 10,
+    })
+  })
+
+  service.addEventListener('mouseleave', (event) => {
+    anime.remove(service.querySelector('.arrow'));
+    anime({
+      targets: service.querySelector('.arrow'),
+      easing: 'easeOutExpo',
+      translateX: 0,
+      duration: 1000,
+    })
+  })
+})
+
