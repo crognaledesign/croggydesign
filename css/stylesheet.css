@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Saira:wght@400;600;700;800;900&display=swap');
 
+* {padding:0;margin:0;box-sizing:border-box;}
+
 html {
     margin: auto;
     width: 100%;
@@ -10,10 +12,12 @@ body {
     margin: auto;
     overflow-x: hidden;
     height: auto;
-    background-color:#00ADEE
+    background-color:#00ADEE;
+    overflow-x: hidden;
 }
 .logo {
     width: 8rem;
+    justify-content: center;
 }
 nav {
     background-color: #F5F5F5;
@@ -50,13 +54,14 @@ nav a:hover {
     color: #F5F5F5;
 }
 aside {
-    padding-left: 1rem;
+    padding-left: 0rem;
     background-color: #F5F5F5;
     float:right;
     right: 0;
     padding-top:8rem;
     top:0;
     height: 100%;
+    width: 24rem;
 }
 .japanese {
     z-index: 4;
@@ -65,9 +70,9 @@ aside {
     position: absolute;
     float: right;
     top: 0;
-    padding-right: 1rem;
+    padding-right: 0rem;
     font-family: 'Dela Gothic One';
-    font-size: 18rem;
+    font-size: 16rem;
     letter-spacing: -2rem;
     color: #00ADEE;
 }
@@ -78,7 +83,7 @@ aside {
     list-style-type: none;
     text-decoration: none;
     padding-right: 1rem;
-    margin-left: 14rem; 
+    margin-left: 16rem; 
     margin-top: 0rem;
 }
 .IconList img {
@@ -101,8 +106,8 @@ aside {
 .workProjects {
     background-color: #F5F5F5;
     width: 100%;
-    right: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 16rem;
+    margin: auto;
 }
 footer {
     position: fixed;
@@ -110,12 +115,68 @@ footer {
     width: 100%;
     background-color: #f5f5f5;
     padding-bottom: 4rem;
+    padding-top:2rem;
 }
 .connect {
     font-size: 1.5rem;
     font-family: 'Saira';
-    margin-left: 14rem;
+    margin-left: 15rem;
     font-weight: 700;
     line-height: 1rem;
 }
+.email {
+    font-size: 1rem;
+    font-family: 'Saira';
+    margin-left: 2rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color:#00ADEE;
+}
+.project1 {
+    margin-top: 6rem;
+    margin-left: 14rem;
+}
 
+
+
+
+@media screen and (max-width: 1700px) {
+    .Headercontent h2 {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        margin-top: 4rem;
+    }
+    .japanese {
+        font-size: 12.5rem;
+        padding-top:5rem;
+    }
+    aside {
+        width: 18rem;
+    }
+    nav ul li {
+        font-size: 1.05rem;
+    }
+    .logo {
+        width: 5.25rem;
+        padding-bottom: -0.25rem;
+    }
+    .IconList img{
+        width: 2.5rem;
+    }
+    .TypeList {
+        font-size: 1.45rem;
+    }
+    .workProjects {
+        margin-top: 4rem;
+    }
+    .connect {
+        font-size: 1rem;
+    }
+    .email {
+        font-size: 0.85rem;
+    }
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+}
