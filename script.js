@@ -50,7 +50,7 @@ anime({
 
 
 
- /*  anime({
+  /*anime({
   targets: '.arrow',
   keyframes: [
     {translateX: 10},
@@ -64,41 +64,18 @@ anime({
 
 var buttonEl = document.querySelector('.arrow');
 
-function animateButton(duration) {
-  anime.remove('.arrow');
+function animateButton(translateX, duration, elasticity) {
+  anime.remove(buttonEl);
   anime({
-    targets: '.arrow',
-    keyframes: [
-      {translateX:10},
-      {translateX:0},
-    ],
-    duration: 2000,
-    easing:'easeInOutQuad',
-    loop: true
+    targets: buttonEl,
+    translateX: translateX,
+    duration: duration,
+    elasticity: elasticity
   });
 }
 
-function enterButton() { anime({
-    targets: '.arrow',
-    keyframes: [
-      {translateX:10},
-      {translateX:0},
-    ],
-    duration: 2000,
-    easing:'easeInOutQuad',
-    loop: false
-  });};
-
-  function leaveButton() { anime({
-    targets: '.arrow',
-    keyframes: [
-      {translateX:0},
-    ],
-    duration: 2000,
-    easing:'easeInOutQuad',
-    loop:false
-  });};
-
+function enterButton() { animateButton(10.0, 800, 1000) };
+function leaveButton() { animateButton(1.0, 600, 0) };
 
 buttonEl.addEventListener('mouseenter', enterButton, false);
 buttonEl.addEventListener('mouseleave', leaveButton, false);
