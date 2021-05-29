@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622251455988">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="croggy.design" resolutions="1x" timestamp="1622253333887">
   <folder name="fonts">
     <file name="delagothicone-regular.woff" crc="426897955"/>
     <file name="gilroy-extrabold-webfont1.eot" crc="296740867"/>
@@ -18,10 +18,10 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="175771894" ref="index"/>
-    <file name="master_foreground.css" crc="4240002381" ref="index:typeface"/>
+    <file name="index.css" crc="3773006055" ref="index"/>
+    <file name="master_foreground.css" crc="163020984" ref="index:typeface"/>
     <file name="contact.css" crc="122749095" ref="contact"/>
-    <file name="typeface.css" crc="29056523" ref="typeface"/>
+    <file name="typeface.css" crc="444706812" ref="typeface"/>
     <file name="stress.css" crc="4013107131" ref="stress"/>
   </folder>
   <folder name="scripts">
@@ -55,10 +55,10 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="pasted svg 1280x720_poster_.png" crc="4041080326" ref="index"/>
-    <file name="duck_tn.jpg" crc="21192808" seo="true" ref="index">
+    <file name="duck_tn.jpg" crc="4028068506" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pa_rebrand.jpg" crc="243962464" seo="true" ref="index">
+    <file name="pa_rebrand.jpg" crc="325665010" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -82,8 +82,8 @@
       <caption webpage="typeface" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="245375150" seo="true" mt="1622251202171" redirect="true"/>
-  <file name="typeface.html" crc="283861533" seo="true" mt="1622250840815" redirect="true"/>
+  <file name="index.html" crc="255565007" seo="true" mt="1622253322531" redirect="true"/>
+  <file name="typeface.html" crc="439543242" seo="true" mt="1622253291445" redirect="true"/>
   <file name="stress.html" crc="91475353" seo="true" mt="1622247980941" redirect="true"/>
   <file name="contact.html" crc="3980527357" seo="true" mt="1622247411722" redirect="false"/>
 </manifest>
