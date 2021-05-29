@@ -47,6 +47,7 @@ nav a:hover {
     margin-left: 14rem;
     line-height: 3.5rem;
     padding-bottom: 1.6rem;
+    color: #F5F5F5;
 }
 aside {
     padding-left: 1rem;
@@ -95,6 +96,7 @@ aside {
     font-weight: 700;
     padding-top: 0;
     padding-bottom: 1rem;
+    color: #F5F5F5;
 }
 .workProjects {
     background-color: #F5F5F5;
