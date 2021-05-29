@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Saira:wght@400;600;700;800;900&display=swap');
 
 html {
-    background-color: #00ADEE;
-    overflow-x: hidden;
     margin: auto;
+    width: 100%;
+    overflow-x: hidden;
 }
 body {
-    margin: 0;
     width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    height: auto;
+    background-color:#00ADEE
+}
+.logo {
+    width: 8rem;
 }
 nav {
     background-color: #F5F5F5;
     width: 100%;
     float: right;
-    left: 0;
+    right: 0;
     top: 0;
 }
 nav ul li {
