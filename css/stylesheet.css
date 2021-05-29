@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Saira:wght@400;600;700;800;900&display=swap');
+
+html {
+    background-color: #00ADEE;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+}
+nav {
+    background-color: #F5F5F5;
+    width: 100%;
+    float: right;
+    left: 0;
+    top: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Dela Gothic One';
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color:#00ADEE;
+}
+.Headercontent {
+    margin-top: 8rem;
+    font-size: 2rem;
+    font-family: 'Dela Gothic One';
+    margin-left: 14rem;
+}
+.level21 {
+    margin-top: 1rem;
+}
+.IconList {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 1rem;
+    margin-left: 14rem; 
+}
+.IconList img {
+    width: 3.5rem;
+}
+.TypeList {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 1rem;
+    margin-left: 1rem; 
+    font-family: Saira;
+    font-size: 2rem;
+    top: 0;
+    margin-top: 0.70rem;
+    font-weight: 700;
+}
+.workProjects {
+    background-color: #F5F5F5;
+    width: 100%;
+    right: 0;
+    padding-bottom: 2rem;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
