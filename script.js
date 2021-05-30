@@ -98,7 +98,8 @@ services.forEach((service) => {
     anime({
       targets: service.querySelector('.arrow'),
       easing: 'easeOutExpo',
-      translateX: 10,
+      translateX: 15,
+      duration: 500,
     })
   })
 
@@ -108,7 +109,7 @@ services.forEach((service) => {
       targets: service.querySelector('.arrow'),
       easing: 'easeOutExpo',
       translateX: 0,
-      duration: 1000,
+      duration: 500,
     })
   })
 })

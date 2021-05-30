@@ -138,9 +138,9 @@ aside {
     color: black;
 }
 .descriptor {
-    margin-top: 16rem;
+    margin-top: 12rem;
 }
-.workProjects {
+.portfolio {
     background-color: #F5F5F5;
     width: 100%;
     padding-bottom: 24rem;
@@ -187,11 +187,27 @@ footer {
 }
 .project {
     margin-left: 14rem;
-    margin-top: 16rem;
-    border-radius: 24rem;
+    margin-top: 6rem;
 }
 .arrow {
     width: 2rem;
+}
+.featured .project{
+    border-radius:0rem;
+    margin-top: 4rem;
+}
+.featured .descriptor {
+    margin-top: 9rem;
+}
+.featured .projectTitle {
+    font-size: 2.5rem;
+}
+.featured .projectBio {
+    font-size: 2rem;
+    color: #F5F5F5;
+}
+.featured .arrow {
+    width: 2.5rem;
 }
 
 
@@ -238,7 +254,7 @@ footer {
         margin-top: 0.25rem;
         line-height: 2.75rem;
     }
-    .workProjects {
+    .portfolio {
         margin-top: 4rem;
     }
     .connect {
