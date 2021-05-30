@@ -93,8 +93,11 @@ aside {
 }
 .IconList img {
     width: 3.5rem;
+    padding-top: 0.2rem;
 }
 .TypeList {
+    line-height: 2.75rem;
+    padding-top: 0.5rem;
     list-style-type: none;
     text-decoration: none;
     padding-right: 1rem;
@@ -149,7 +152,7 @@ footer {
     background-color: #F5F5F5;
     padding-bottom: 2rem;
     padding-top:2rem;
-    z-index: 0;
+    z-index: 4;
 }
 .connect {
     font-size: 1.5rem;
@@ -186,6 +189,9 @@ footer {
     margin-top: 16rem;
     border-radius: 24rem;
 }
+.arrow {
+    width: 2rem;
+}
 
 
 
@@ -193,12 +199,16 @@ footer {
 @media screen and (max-width: 1700px) {
     .Headercontent h2 {
         font-size: 1.6rem;
-        line-height: 1.8rem;
-        margin-top: 4rem;
+        line-height: 2.5rem;
+        margin-top: 0rem;
+    }
+    .Headercontent {
+        margin-top:2rem;
     }
     .japanese {
         font-size: 12.5rem;
         padding-top:5rem;
+        z-index: 4;
     }
     aside {
         width: 18rem;
@@ -210,11 +220,16 @@ footer {
         width: 5.25rem;
         padding-bottom: -0.25rem;
     }
+    .IconList {
+        margin-top:0.25rem;
+    }
     .IconList img{
         width: 2.5rem;
+        padding-top: 0.1rem;
     }
     .TypeList {
         font-size: 1.45rem;
+        margin-top: 0.25rem;
     }
     .workProjects {
         margin-top: 4rem;
@@ -224,9 +239,36 @@ footer {
     }
     .email {
         font-size: 0.85rem;
+        margin-left: 8rem;
+    }
+    .footericons {
+        height: 2.5rem;
+        margin-left: 12rem;
+    }
+    .rights {
+        font-size: 0.85rem;
     }
     footer {
         padding-top: 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 1.5rem;
+        z-index: 3;
+    }
+    .descriptor {
+        margin-top: 8rem;
+    }
+    .projectBio{
+        font-size: 1rem;
+    }
+    .projectTitle {
+        font-size: 1.5rem;
+    }
+    .project {
+        margin-top: 2rem;
+    }
+    .arrow {
+        width: 1.5rem;
+    }
+    aside {
+        height:40rem;
     }
 }
