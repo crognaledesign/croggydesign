@@ -5,15 +5,15 @@
 html {
     margin: auto;
     width: 100%;
-    overflow-x: hidden;
+    overflow-y: hidden;
 }
 body {
     width: 100%;
+    max-height: 100%;
     margin: auto;
-    overflow-x: hidden;
     height: auto;
     background-color:#ED1848;
-    overflow-x: hidden;
+    overflow-y: hidden;
     background-image: url(background.png);
     background-position-x: -30rem;
     background-position-y: -16rem;
@@ -59,16 +59,25 @@ nav a:hover {
     padding-bottom: 1.6rem;
     color: #F5F5F5;
 }
+section {
+    float: left;
+}
+section h1 {
+    display: inline-block;
+}
+.typeHeader { 
+    font-family: 'Dela Gothic One';
+    font-size: 12rem;
+    margin-left:10rem;
+    margin-right: 4rem;
+    margin-top: 3.5rem;
+}
 aside {
-    padding-left: 0rem;
-    background-color: #F5F5F5;
-    float:right;
-    right: 0;
-    padding-top:8rem;
-    top:0;
-    height: 200%;
-    width: 24rem;
-    position: fixed;
+    float: right;
+    height: 100%;
+}
+.arrow {
+    margin-top: 16.5rem;
 }
 .japanese {
     z-index: 4;
@@ -216,6 +225,8 @@ footer {
     aside {
         width: 14rem;
         height:40rem;
+        float: right;
+        height: 100%;
     }
     nav ul li {
         font-size: 1.05rem;
@@ -250,7 +261,7 @@ footer {
     }
     .footericons {
         height: 2.5rem;
-        margin-left: 13.55rem;
+        margin-left: 12rem;
     }
     .rights {
         font-size: 0.85rem;
@@ -274,5 +285,6 @@ footer {
     }
     .arrow {
         width: 1.5rem;
+        margin-top: 12.5rem;
     }
 }

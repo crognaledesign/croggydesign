@@ -6,7 +6,6 @@
         <title>Heya!</title>
         <!-- MY CSS -->
         <link rel="stylesheet" href="css/voxl.css">
-        
         <!-- Flexbox CSS -->
         <link rel="stylesheet" href="css/flexboxgrid.min.css">
         </head>
@@ -24,8 +23,32 @@
       </nav>
   </span>
 
-  <span class="row center-xs"><!--<img class="col-md-6" style="width:60%;" src="images/voxl.png">-->
-  </span>
+ <!--Arrow Script-->
+ <script>
+
+  $elementToScrollTo = $('.scrollDown');
+  $whereToScroll = $elementToScrollTo.offset().left - 30; // 30px just to give some space before the element
+  window.scrollBy($whereToScroll, 0);
+
+</script>
+
+
+<!--Body Content-->
+  <section>
+      <h1 class="typeHeader">VOXL</h1>
+
+
+
+
+  </section>
+ <!--Arrow-->
+ <aside>
+    <div class="selector">
+      <a href="#"><img class="arrow" src="images/arrow.svg" style="float:right; margin-right:2rem;margin-left:2rem;position:relative;"></a>
+    </div>
+  </aside>
+  
+
 
   <!--Footer-->
 <footer>
