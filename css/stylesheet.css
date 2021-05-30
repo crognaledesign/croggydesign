@@ -96,7 +96,7 @@ aside {
     padding-top: 0.2rem;
 }
 .TypeList {
-    line-height: 2.75rem;
+    line-height: 3.75rem;
     padding-top: 0.5rem;
     list-style-type: none;
     text-decoration: none;
@@ -141,7 +141,7 @@ aside {
 .workProjects {
     background-color: #F5F5F5;
     width: 100%;
-    padding-bottom: 32rem;
+    padding-bottom: 24rem;
     margin: auto;
     margin-top: 6rem;
 }
@@ -152,7 +152,6 @@ footer {
     background-color: #F5F5F5;
     padding-bottom: 2rem;
     padding-top:2rem;
-    z-index: 4;
 }
 .connect {
     font-size: 1.5rem;
@@ -230,6 +229,7 @@ footer {
     .TypeList {
         font-size: 1.45rem;
         margin-top: 0.25rem;
+        line-height: 2.75rem;
     }
     .workProjects {
         margin-top: 4rem;
