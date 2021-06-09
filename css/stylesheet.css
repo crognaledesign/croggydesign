@@ -231,7 +231,7 @@ footer {
     }
     aside {
         width: 14rem;
-        height:40rem;
+        height:80rem;
     }
     nav ul li {
         font-size: 1.05rem;
@@ -290,5 +290,25 @@ footer {
     }
     .arrow {
         width: 1.5rem;
+    }
+    .featured .project{
+        border-radius:0rem;
+        margin-top: 0rem;
+    }
+    .featured .descriptor {
+        margin-top: 4.75rem;
+    }
+    .featured .projectTitle {
+        font-size: 1.75rem;
+        margin-bottom: 0rem;
+    }
+    .featured .projectBio {
+        font-size: 1rem;
+        color: #F5F5F5;
+        margin-top: 0rem;
+    }
+    .featured .arrow {
+        width: 1.5rem;
+
     }
 }
