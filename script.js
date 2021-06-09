@@ -38,6 +38,16 @@ anime({
     loop: false
   });
 
+  anime({
+    targets: '.typevideo',
+    translateX: [-10, 0], // from 100 to 250
+    delay: 0,
+    opacity: [0, 1],
+    duration: 1000,
+    easing: 'easeOutExpo',
+    loop: false
+  });
+
 anime({
     targets: '.stagger',
     translateX: [-10, 0],

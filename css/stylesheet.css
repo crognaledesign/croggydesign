@@ -6,6 +6,7 @@ html {
     margin: auto;
     width: 100%;
     overflow-x: hidden;
+    font-size:16px;
 }
 body {
     width: 100%;
@@ -60,7 +61,7 @@ nav a:hover {
     color: #F5F5F5;
 }
 aside {
-    padding-left: 0rem;
+    margin: auto;
     background-color: #F5F5F5;
     float:right;
     right: 0;
@@ -193,7 +194,6 @@ footer {
     width: 2rem;
 }
 .featured .project{
-    border-radius:0rem;
     margin-top: 4rem;
 }
 .featured .descriptor {

@@ -8,6 +8,7 @@
 <!-- MY CSS -->
 <link rel="stylesheet" href="css/stylesheet.css">
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- Flexbox CSS -->
 <link rel="stylesheet" href="css/flexboxgrid.min.css">
 </head>
@@ -18,7 +19,7 @@
   <span class="row end-md">
   <nav class="col-md-8">
     <ul class="nav row middle-xs around-xs">
-      <li><img class="logo" src="images/logo.svg"/></li>
+      <li><a href="index.html"><img class="logo" src="images/logo.svg"/></a></li>
         <li><a href="index.html">//work</a></li>
         <li><a href="#">//fun</a></li>
         <li><a href="#">//streams</a></li>
@@ -56,10 +57,10 @@
 <!--Projects-->
 <section class="featured">
   <div class="row middle-xs"> 
-    <img class="project col-md-4 col-sm-3" src="images/voxl_round.png" alt="VOXL Thumbnail">
+    <img class="project col-md-4 col-sm-3" src="images/typeinmotion.png" alt="Type In Motion Thumbnail">
       <box class="descriptor col-md-4">
-        <h4 class="projectTitle" style="color: #F5F5F5">VOXL Typeface</h4>
-        <p class="projectBio">A square typeface loosely based on the Twitch wordmark designed for esports and gaming.</p>
+        <h4 class="projectTitle" style="color: #F5F5F5">Modernism on Paper</h4>
+        <p class="projectBio">A motion graphic piece designed and animated using existing elements of a Japanese poster.</p>
         <ul>
           <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a class="selector" href="voxl.html"><img class="arrow" src="images/arrow_white.svg"/></a></li>
         </ul>
@@ -68,16 +69,27 @@
 </section>
 <section class="portfolio">
     <div class="row middle-xs"> 
-      <img class="project col-md-4 col-sm-3" src="images/manic_round.png" alt="Manic Thumbnail">
-        <box class="descriptor col-md-4">
-          <h4 class="projectTitle" style="color: black">Manic Video</h4>
+      <img data-aos="fade-right" data-aos-offset="200" class="project col-md-4 col-sm-3" src="images/manic_round.png" alt="Manic Thumbnail">
+        <box data-aos="fade-left" data-aos-offset="200" class="descriptor col-md-4">
+          <h4 class="projectTitle" style="color: black">Manic</h4>
           <p class="projectBio">A video project meant to detail the definition of the word manic, visually and cohesively.</p>
           <ul>
             <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a class="selector" href="http://fulmine.design/manic.html"><img style="transform:translate(0rem, 0rem)" class="arrow" src="images/arrow.svg"/></a><!--<p style="text-decoration-style: none; color: #ED1848; font-family: 'Saira'; font-weight: 600; font-size: 1.2rem;">Link Coming Soon</p></li>-->
           </ul>
         </box>
       </div>
+      <div class="row middle-xs"> 
+      <img data-aos="fade-right" data-aos-offset="200" class="project col-md-4 col-sm-3" src="images/voxl_round.png" alt="VOXL Thumbnail">
+        <box data-aos="fade-left" data-aos-offset="200" class="descriptor col-md-4">
+          <h4 class="projectTitle" style="color: black">VOXL Typeface</h4>
+          <p class="projectBio">An original typeface designed for use in gaming and esports environments.</p>
+          <ul>
+            <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a class="selector" href="http://fulmine.design/manic.html"><img style="transform:translate(0rem, 0rem)" class="arrow" src="images/arrow.svg"/></a><!--<p style="text-decoration-style: none; color: #ED1848; font-family: 'Saira'; font-weight: 600; font-size: 1.2rem;">Link Coming Soon</p></li>-->
+          </ul>
+        </box>
+      </div>
   </section>
+  
     
 
 
@@ -98,6 +110,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
