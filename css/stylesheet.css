@@ -60,29 +60,28 @@ nav a:hover {
     padding-bottom: 1.6rem;
     color: #F5F5F5;
 }
-aside {
+.japanese {
     margin: auto;
     background-color: #F5F5F5;
     float:right;
     right: 0;
-    padding-top:8rem;
+    padding-top:7rem;
     top:0;
     height: 200%;
     width: 24rem;
+    padding-left:3rem;
     position: fixed;
-}
-.japanese {
     z-index: 4;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
     position: absolute;
     float: right;
     top: 0;
     padding-right: 0rem;
     font-family: 'Dela Gothic One';
-    font-size: 16rem;
-    letter-spacing: -1rem;
+    font-size: 18rem;
     color: #00ADEE;
+    display: block;
+    list-style-type: none;
+    line-height: 17rem;
 }
 .level21 {
     margin-top: 1rem;
