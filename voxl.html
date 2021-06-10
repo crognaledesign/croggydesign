@@ -6,6 +6,7 @@
         <title>Heya!</title>
         <!-- MY CSS -->
         <link rel="stylesheet" href="css/voxl.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Flexbox CSS -->
         <link rel="stylesheet" href="css/flexboxgrid.min.css">
         </head>
@@ -35,7 +36,7 @@
   
   <aside class="japanese">
     <h3>Modernism on Paper</h3>
-      <p><i>Modernism on Paper</i> is a motion piece based on a book cover for a book of the same name. <br><br>
+      <p><i>Modernism on Paper</i> is a motion piece based on a book cover for a book of the<br>same name. <br><br>
       I wanted to use this project as an opportunity not only to create an outstanding assignment, but also to practice and develop my After Effects skills, specifically through use of After Effects' built in 3D Camera.</p>
   </aside>
 
@@ -55,16 +56,39 @@
     <section class="portfolio">
       <h1 style="color: #F5F5F5; font-family:'Dela Gothic One';font-size: 2rem;margin-top:0rem;">//storyboard</h1>
       <div class="row">
-        <img class="project col-md-2" src="#" style="background-color: blue;margin-left: 1rem;"/>
-        <img class="project col-md-2" src="#" style="background-color: blue; margin-left: 1rem;"/>
-        <img class="project col-md-2" src="#" style="background-color: blue; margin-left: 1rem;"/>
+        <img class="project col-md-2" src="images/storyboard1.JPG" style="margin-left: 0rem;"/>
+        <img class="project col-md-2" src="images/storyboard2.JPG" style=" margin-left: 0rem;"/>
+        <img class="project col-md-2" src="images/storyboard3.JPG"/>
+      </div>
+      <div class="row">
+        <img class="project col-md-2" src="images/storyboard4.JPG" style="margin-left: 0rem;"/>
+        <img class="project col-md-2" src="images/storyboard5.JPG" style=" margin-left: 0rem;"/>
       </div>
     </section>
     
-    <aside class="sidebar_story">
-      <h1>TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING</h1>
+    <aside data-aos="fade-left" data-aos-offset="200" class="sidebar_story">
+      <h1 data-aos="fade-left" data-aos-offset="200" data-aos-delay="400" style="font-family: 'Saira'; font-size: 2rem;">PRE-PRODUCTION</h1>
+      <p data-aos="fade-left" data-aos-offset="200" data-aos-delay="600" style="margin-top: 1rem; padding-right: 1rem; font-size: 1.25rem; font-family: 'Saira'; font-weight: 500; line-height: 2rem;">Video isn't easy; in fact, video tends to be one of the mediums where the majority of the work is done before the editor or designer even touches the timeline.<br><br>The storyboard for this video was the one piece that took me the longest. I cycled through a number of ideas in my head, and compared to what ended up on the page, even the final video had changed once it hit the timeline.<br><br>Certain shots didn't line up the way I had hoped they would, or lacked a certain energy that I was after. Compared to the rest of the video, those shots seemed bland and because of that, that some creative liberties were taken on the timeline when things began to fall apart during the planning process.<br><br>Put simply, video takes a while, and when you're experimenting with different styles, it's hard to determine what will and won't work before you hit the timeline. Once you're in the middle of making things move, it becomes much easier to determine the final look of the project, and I learned that while working on this project.</p>
     </aside>
 
+
+    <section class="project_select">
+      
+      <div class="row"> 
+        <box class="descriptor col-md-5 start-xs">
+          <h6 class="projectTitle" style="font-size: 2.25rem; color: black;">HOME</h6>
+          <ul>
+            <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a class="selector" href="index.html"><img style="transform:translate(0rem, 0rem); rotate: 180deg;" class="arrow" src="images/arrow.svg"/></a>
+          </ul>
+        </box>
+        <box class="descriptor col-md-6 end-xs">
+          <h6 class="projectTitle" style="font-size: 2.25rem; color: black; text-align: right;">MANIC</h6>
+          <ul>
+            <li style="list-style-type: none; text-decoration: none; margin-left: 1rem; margin-bottom: 6rem;"><a class="selector" href="http://fulmine.design/manic.html"><img style="transform:translate(0rem, 0rem); margin-right: 1rem;" class="arrow" src="images/arrow.svg"/></a>
+          </ul>
+        </box>
+        </div>
+    </section>
     
 
   <!--Footer-->
@@ -84,6 +108,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>

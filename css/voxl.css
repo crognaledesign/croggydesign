@@ -74,14 +74,14 @@ section h1 {
     margin-top: 3.5rem;
 }
 .arrow {
-    margin-top: 16.5rem;
+    margin-top: 0rem;
 }
 .japanese {
     padding-left: 0rem;
     background-color: #F5F5F5;
     float:right;
     right: 0;
-    padding-top:8rem;
+    padding-top:7rem;
     top:0;
     height: 87%;
     width: 26rem;
@@ -98,6 +98,7 @@ section h1 {
     color: #FF1900;
     text-align: left;
     padding-left: 2rem;
+    padding-right: 2rem;
     line-height: 2.5rem;
 }
 .japanese p {
@@ -109,15 +110,23 @@ section h1 {
 }
 .sidebar_story {
     background-color: #F5F5F5;
-    margin-top: 99rem;
-    width: 36rem;
+    margin-top: 104rem;
+    width: 44rem;
     right: 0;
     float: right;
     position: absolute;
-    height: 100%;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    border-radius: 30px 0px 0px 0px;
+    height: 90%;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 30px 0px 0px 30px;
+}
+.project_select {
+    background-color: #F5F5F5;
+    margin-bottom: 8rem;
+    width: 100%;
+    padding-left:13rem;
+    padding-right:3rem;
 }
 .level21 {
     margin-top: 1rem;
