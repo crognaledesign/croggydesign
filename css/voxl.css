@@ -75,6 +75,7 @@ section h1 {
 }
 .arrow {
     margin-top: 0rem;
+    margin-bottom: 5.5rem;
 }
 .japanese {
     background-color: #F5F5F5;
@@ -109,17 +110,17 @@ section h1 {
 }
 .sidebar_story {
     background-color: #F5F5F5;
-    margin-top: 104rem;
+    margin-top: 103rem;
     width: 44rem;
     right: 0;
     float: right;
     position: absolute;
-    height: 90%;
+    height: 92%;
     padding-top: 4rem;
     padding-left: 4rem;
     padding-right: 4rem;
     border-radius: 30px 0px 0px 30px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .sidebar_story p{
     font-size: 1.25rem;
