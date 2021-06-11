@@ -133,6 +133,7 @@ section h1 {
     width: 100%;
     padding-left:13rem;
     padding-right:3rem;
+    font-size: 2.25rem;
 }
 .level21 {
     margin-top: 1rem;
@@ -310,7 +311,7 @@ footer {
         font-weight: 500;
     }
     .typevideo {
-        width: 38rem;
+        width: 40rem;
         margin-top: 2.75rem;
     }
     aside {
@@ -421,6 +422,7 @@ footer {
         width: 100%;
         padding-left:13rem;
         padding-right:9rem;
+        font-size: 1rem;
     }
     .selector {
         margin-bottom: 6rem;

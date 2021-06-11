@@ -129,6 +129,7 @@ section h1 {
     width: 100%;
     padding-left:13rem;
     padding-right:3rem;
+    font-size: 2.25rem;
 }
 .level21 {
     margin-top: 1rem;
@@ -293,6 +294,25 @@ footer {
     margin-left: 14rem;
     margin-bottom: 0rem;
 }
+.sidebar_story p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+.sidebar_story {
+    background-color: #F5F5F5;
+    margin-top: 100rem;
+    width: 43rem;
+    right: 0;
+    float: right;
+    position: absolute;
+    height:27rem;
+    padding-top: 2.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 30px 0px 0px 30px;
+    font-size: 2rem;
+}
 
 
 
@@ -307,11 +327,34 @@ footer {
         margin-top:2rem;
     }
     .japanese {
-        font-size: 10rem;
-        padding-top:5rem;
-        z-index: 4;
+        background-color: #F5F5F5;
+        float:right;
         right: 0;
-        letter-spacing: 1rem;
+        padding-top:3rem;
+        top:0;
+        height: 70%;
+        width: 22rem;
+        position: fixed;
+        border-radius: 0px 0px 0px 30px;
+        z-index: 4;
+        text-orientation: upright;
+        position: absolute;
+        float: right;
+        top: 3rem;
+        font-family: 'Dela Gothic One';
+        font-size: 1.5rem;
+        text-align: left;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        line-height: 2rem;
+    }
+    .japanese p {
+        color: black;
+        font-size: 1rem;
+        font-family: 'Saira';
+        margin-top: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 500;
     }
     aside {
         width: 14rem;
@@ -388,5 +431,62 @@ footer {
     }
     .selector {
         margin-bottom: 6rem;
+    }
+    .sidebar_story {
+        background-color: #F5F5F5;
+        margin-top: 69.25rem;
+        width: 30rem;
+        right: 0;
+        float: right;
+        position: absolute;
+        height:18rem;
+        padding-top: 2.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        border-radius: 30px 0px 0px 30px;
+        font-size: 1rem;
+    }
+    .sidebar_story p {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-top: 0.5rem;
+    }
+    .portfolio .project {
+        padding-right: 4rem;
+    }
+    .portfolio {
+        margin-bottom: 4rem;
+    }
+    .portfolio2  {
+        padding-right: 3rem;
+    }
+    .portfolio2 .project {
+        height: 100%;
+        width: auto;
+    }
+    .portfolio2 p {
+        padding-right: 2rem;
+        font-size: 0.8rem;
+    }
+    .typevideo {
+        width: 40rem;
+        margin-top: 2.75rem;
+    }
+    .process {
+        padding-right: 3rem;
+        padding-bottom: 10rem;
+    }
+    .process p {
+        padding-right: 2rem;
+        font-size: 0.8rem;
+    }
+    .process .project {
+        height: auto;
+    }
+    .footericons {
+        margin-left: 24rem;
+    }
+    .email {
+        margin-left: 18.5rem;
     }
 }
