@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Saira:wght@400;600;700;800;900&display=swap');
+
+* {padding:0;margin:0;box-sizing:border-box;}
+
+html {
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+    max-height: 100%;
+    margin: auto;
+    height: auto;
+    background-color:black;
+    overflow-x: hidden;
+    background-image: url(background.png);
+    background-position-x: -30rem;
+    background-position-y: -16rem;
+    background-clip: inherit;
+    background-repeat: no-repeat;
+}
+.logovoxl {
+    width: 8rem;
+    justify-content: center;
+}
+nav {
+    background-color: #F5F5F5;
+    width: 100%;
+    float: right;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+nav ul li {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Dela Gothic One';
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-right:4rem;
+    padding-left:4rem;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color:#FF0069;
+}
+.Headercontent {
+    margin-top: 6rem;
+    font-size: 2rem;
+    font-family: 'Dela Gothic One';
+    margin-left: 14rem;
+    line-height: 3.5rem;
+    padding-bottom: 1.6rem;
+    color: #F5F5F5;
+}
+section {
+    float: left;
+}
+section h1 {
+    display: inline-block;
+}
+.typeHeader { 
+    font-family: 'Dela Gothic One';
+    font-size: 12rem;
+    margin-left:10rem;
+    margin-right: 4rem;
+    margin-top: 3.5rem;
+}
+.arrow {
+    margin-top: 0rem;
+}
+.japanese {
+    background-color: #F5F5F5;
+    float:right;
+    right: 0;
+    padding-top:7.5rem;
+    top:0;
+    height: 76%;
+    width: 32rem;
+    position: fixed;
+    border-radius: 0px 0px 0px 30px;
+    z-index: 4;
+    text-orientation: upright;
+    position: absolute;
+    float: right;
+    top: 3rem;
+    font-family: 'Dela Gothic One';
+    font-size: 2.5rem;
+    color: #FF0069;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    line-height: 2.5rem;
+}
+.japanese p {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Saira';
+    margin-top: 1.25rem;
+    line-height: 2.68rem;
+    font-weight: 500;
+}
+.sidebar_story {
+    background-color: #F5F5F5;
+    margin-top: 90rem;
+    width: 44rem;
+    right: 0;
+    float: right;
+    position: absolute;
+    height: 180%;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 30px 0px 0px 30px;
+    z-index:-1
+}
+.project_select {
+    background-color: #F5F5F5;
+    padding-top:3rem;
+    padding-bottom: 6rem;
+    width: 100%;
+    padding-left:13rem;
+    padding-right:3rem;
+}
+.level21 {
+    margin-top: 1rem;
+}
+.IconList {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 1rem;
+    margin-left: 16rem; 
+    margin-top: 4rem;
+}
+.IconList img {
+    width: 3.5rem;
+    padding-top: 0.2rem;
+}
+.TypeList {
+    line-height: 3.75rem;
+    padding-top: 0.5rem;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 1rem;
+    margin-left: 1rem; 
+    font-family: 'Saira';
+    font-size: 2rem;
+    top: 0;
+    margin-top: 4rem;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    color: #F5F5F5;
+}
+.projectTitle {
+    padding-right: 1rem;
+    margin-left: 1rem; 
+    font-family: 'Saira';
+    font-size: 3rem;
+    top: 0;
+    margin-top: 0rem;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    color: #F5F5F5;
+}
+.projectBio {
+    padding-right: 1rem;
+    font-family: 'Saira';
+    font-size: 1.4rem;
+    top: 0;
+    margin-left: 1rem;
+    margin-top: 0rem;
+    font-weight: 600;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    color: black;
+}
+.descriptor {
+    margin-top:2rem;
+}
+.process {
+    width: 100%;
+    padding-bottom: 14rem;
+    margin: auto;
+    margin-top: 6rem;
+    margin-left: 14rem;
+}
+.additional_links li{
+    display: block;
+    list-style-type: none;
+    color: #F5F5F5;
+    font-family: 'Saira';
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    list-style-type: none;
+    color: #F5F5F5;
+    margin-bottom: 0rem;
+    line-height: 6rem;
+}
+.additional_links a {
+    color: #F5F5F5;
+    text-decoration: none;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.additional_links a:hover {
+    color: #FF0069;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-bottom: 2rem;
+    padding-top:2rem;
+}
+.connect {
+    font-size: 1.5rem;
+    font-family: 'Saira';
+    margin-left: 15rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.email {
+    font-size: 1rem;
+    font-family: 'Saira';
+    margin-left: 24.25rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color:#FF0069;
+}
+.footericons {
+    margin-left: 35.75rem;
+    height: 3rem;
+    padding-top: 0.5rem;
+    margin-top:0.5rem;
+}
+.rights {
+    font-size: 1rem;
+    font-family: 'Saira';
+    font-weight: 400;
+    line-height: 0rem;
+    vertical-align: center;
+    margin-left: 15rem;
+    padding-bottom: 1.15rem;
+}
+.project {
+    margin-top: 2rem;
+    width: 24rem;
+}
+.arrow {
+    width: 2rem;
+}
+.typevideo {
+    margin-top: 3.5rem;
+    margin-left: 14rem;
+}
+.typevideo:focus { 
+    outline:none;
+}
+.portfolio {
+    /*background-color: #F5F5F5;*/
+    width: 100%;
+    padding-bottom: 8rem;
+    margin: auto;
+    margin-left: 14rem;
+    margin-bottom: 0rem;
+}
+.added_links {
+    /*background-color: #F5F5F5;*/
+    width: 100%;
+    padding-bottom: 8rem;
+    margin: auto;
+    margin-left: 14rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+@media screen and (max-width: 1700px) {
+    .Headercontent h2 {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        margin-top: 0rem;
+    }
+    .Headercontent {
+        margin-top:2rem;
+    }
+    .japanese {
+        font-size: 10rem;
+        padding-top:5rem;
+        z-index: 4;
+        right: 0;
+        letter-spacing: 1rem;
+    }
+    aside {
+        width: 14rem;
+        height:40rem;
+        float: right;
+        height: 100%;
+    }
+    nav ul li {
+        font-size: 1.05rem;
+        padding-right:3rem;
+        padding-left:3rem;
+    }
+    .logovoxl {
+        width: 5.25rem;
+        padding-bottom: -0.25rem;
+    }
+    .IconList {
+        margin-top:0.25rem;
+    }
+    .IconList img{
+        width: 2.5rem;
+        padding-top: 0.1rem;
+    }
+    .TypeList {
+        font-size: 1.45rem;
+        margin-top: 0.25rem;
+        line-height: 2.75rem;
+    }
+    .workProjects {
+        margin-top: 4rem;
+    }
+    .connect {
+        font-size: 1rem;
+    }
+    .email {
+        font-size: 0.85rem;
+        margin-left: 8rem;
+    }
+    .footericons {
+        height: 2.5rem;
+        margin-left: 12rem;
+    }
+    .rights {
+        font-size: 0.85rem;
+    }
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        z-index: 3;
+    }
+    .descriptor {
+        margin-top: 8rem;
+    }
+    .projectBio{
+        font-size: 1rem;
+    }
+    .projectTitle {
+        font-size: 1.5rem;
+    }
+    .project {
+        margin-top: 2rem;
+    }
+    .arrow {
+        width: 1.5rem;
+        margin-top: 12.5rem;
+    }
+}
