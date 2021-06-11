@@ -212,21 +212,38 @@ footer {
 
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1760px) {
     .Headercontent h2 {
         font-size: 1.6rem;
         line-height: 2.5rem;
         margin-top: 0rem;
+        padding-right: 2rem;
     }
     .Headercontent {
         margin-top:2rem;
     }
     .japanese {
-        font-size: 10rem;
-        padding-top:5rem;
-        z-index: 4;
+        margin: auto;
+        background-color: #F5F5F5;
+        float:right;
         right: 0;
-        letter-spacing: 1rem;
+        padding-top:5.5rem;
+        top:0;
+        height: 150%;
+        width: 16rem;
+        padding-left:3rem;
+        position: fixed;
+        z-index: 4;
+        position: absolute;
+        float: right;
+        top: 0;
+        padding-right: 6rem;
+        font-family: 'Dela Gothic One';
+        font-size: 10rem;
+        color: #00ADEE;
+        display: block;
+        list-style-type: none;
+        line-height: 10rem;
     }
     aside {
         width: 14rem;
@@ -255,6 +272,8 @@ footer {
     }
     .portfolio {
         margin-top: 4rem;
+        margin-bottom: 0rem;
+        padding-bottom: 12rem;
     }
     .connect {
         font-size: 1rem;
@@ -280,22 +299,29 @@ footer {
     }
     .projectBio{
         font-size: 1rem;
+        padding-right: 6rem;
     }
     .projectTitle {
         font-size: 1.5rem;
     }
     .project {
         margin-top: 2rem;
+        width: 50%;
     }
     .arrow {
         width: 1.5rem;
     }
+    .featured {
+        margin-right:2rem;
+    }
     .featured .project{
         border-radius:0rem;
         margin-top: 0rem;
+        width: 100rem;
     }
     .featured .descriptor {
         margin-top: 4.75rem;
+        padding-right:2rem;
     }
     .featured .projectTitle {
         font-size: 1.75rem;
@@ -308,6 +334,11 @@ footer {
     }
     .featured .arrow {
         width: 1.5rem;
-
+    }
+    .footericons {
+        margin-left: 24rem;
+    }
+    .email {
+        margin-left: 18.5rem;
     }
 }

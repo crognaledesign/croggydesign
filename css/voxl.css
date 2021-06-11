@@ -119,6 +119,11 @@ section h1 {
     padding-left: 4rem;
     padding-right: 4rem;
     border-radius: 30px 0px 0px 30px;
+    font-size: 2rem;
+}
+.sidebar_story p{
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 .project_select {
     /*background-color: #F5F5F5;*/
@@ -252,6 +257,13 @@ footer {
     margin-left: 14rem;
     margin-bottom: 0rem;
 }
+.asset {
+    margin-left: 14rem;
+    width: 12rem;
+}
+.selector {
+    margin-bottom: 12rem;
+}
 
 
 
@@ -266,11 +278,39 @@ footer {
         margin-top:2rem;
     }
     .japanese {
-        font-size: 10rem;
-        padding-top:5rem;
-        z-index: 4;
+        background-color: #F5F5F5;
+        float:right;
         right: 0;
-        letter-spacing: 1rem;
+        padding-top:3rem;
+        top:0;
+        height: 70%;
+        width: 22rem;
+        position: fixed;
+        border-radius: 0px 0px 0px 30px;
+        z-index: 4;
+        text-orientation: upright;
+        position: absolute;
+        float: right;
+        top: 3rem;
+        font-family: 'Dela Gothic One';
+        font-size: 1.5rem;
+        color: #FF1900;
+        text-align: left;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        line-height: 2rem;
+    }
+    .japanese p {
+        color: black;
+        font-size: 1rem;
+        font-family: 'Saira';
+        margin-top: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+    }
+    .typevideo {
+        width: 38rem;
+        margin-top: 2.75rem;
     }
     aside {
         width: 14rem;
@@ -322,7 +362,7 @@ footer {
         z-index: 3;
     }
     .descriptor {
-        margin-top: 8rem;
+        margin-top: 2.25rem;
     }
     .projectBio{
         font-size: 1rem;
@@ -332,9 +372,62 @@ footer {
     }
     .project {
         margin-top: 2rem;
+        width: 18rem;
+        height: 100%;
     }
     .arrow {
         width: 1.5rem;
-        margin-top: 12.5rem;
+        margin-top: 0.5rem;
+    }
+    .asset {
+        margin-left: 6rem;
+        width: 8rem;
+    }
+    .assets {
+        margin-left: 8rem;
+    }
+    .process {
+        margin-top: 6rem;
+    }
+    .process h1 {
+        font-size: 1.5rem;
+    }
+    .portfolio {
+        width: 60rem;
+    }
+    .sidebar_story {
+        background-color: #F5F5F5;
+        margin-top: 70rem;
+        width: 35rem;
+        right: 0;
+        float: right;
+        position: absolute;
+        height: 86%;
+        padding-top: 2.25rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        border-radius: 30px 0px 0px 30px;
+        font-size: 1rem;
+    }
+    .sidebar_story p {
+        font-size: 1rem;
+        line-height: 1.05rem;
+    }
+    .project_select {
+        /*background-color: #F5F5F5;*/
+        padding-top:2rem;
+        margin-bottom: 10rem;
+        width: 100%;
+        padding-left:13rem;
+        padding-right:9rem;
+    }
+    .selector {
+        margin-bottom: 6rem;
+    }
+    .footericons {
+        margin-left: 24rem;
+    }
+    .email {
+        margin-left: 18.5rem;
     }
 }
