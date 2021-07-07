@@ -13,7 +13,7 @@ body {
     margin: auto;
     overflow-x: hidden;
     height: auto;
-    background-color:#00ADEE;
+    background-color:#F5F5F5;
     overflow-x: hidden;
     background-image: url(background.png);
     background-position-x: -30rem;
@@ -67,7 +67,7 @@ nav a:hover {
     right: 0;
     padding-top:7rem;
     top:0;
-    height: 200%;
+    height: 185%;
     width: 24rem;
     padding-left:3rem;
     position: fixed;
@@ -77,11 +77,11 @@ nav a:hover {
     top: 0;
     padding-right: 0rem;
     font-family: 'Dela Gothic One';
-    font-size: 18rem;
-    color: #00ADEE;
+    font-size: 10rem;
+    color: black;
     display: block;
     list-style-type: none;
-    line-height: 17rem;
+    line-height: 10rem;
 }
 .level21 {
     margin-top: 1rem;
@@ -111,7 +111,7 @@ nav a:hover {
     font-weight: 700;
     padding-top: 0;
     padding-bottom: 1rem;
-    color: #F5F5F5;
+    color: black;
 }
 .projectTitle {
     padding-right: 1rem;
@@ -192,6 +192,14 @@ footer {
 .arrow {
     width: 2rem;
 }
+.featured {
+    margin-left: -26rem;
+    margin-bottom: 4rem;
+}
+.featured h1 {
+    font-size: 2rem;
+    text-align: center;
+}
 .featured .project{
     margin-top: 4rem;
 }
@@ -207,6 +215,19 @@ footer {
 }
 .featured .arrow {
     width: 2.5rem;
+}
+.featured .email_link {
+    text-decoration: none;
+    color: #00ADEE;
+}
+.email_link {
+    color: #00ADEE;
+    text-decoration: none;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.email_link:hover {
+    color: black;
 }
 
 
@@ -229,9 +250,9 @@ footer {
         right: 0;
         padding-top:5.5rem;
         top:0;
-        height: 150%;
+        height: 220%;
         width: 16rem;
-        padding-left:3rem;
+        padding-left:4.25rem;
         position: fixed;
         z-index: 4;
         position: absolute;
@@ -239,11 +260,11 @@ footer {
         top: 0;
         padding-right: 6rem;
         font-family: 'Dela Gothic One';
-        font-size: 10rem;
-        color: #00ADEE;
+        font-size: 7rem;
+        color: black;
         display: block;
         list-style-type: none;
-        line-height: 10rem;
+        line-height: 6.25rem;
     }
     aside {
         width: 14rem;
@@ -266,8 +287,8 @@ footer {
         padding-top: 0.1rem;
     }
     .TypeList {
-        font-size: 1.45rem;
-        margin-top: 0.25rem;
+        font-size: 1.28rem;
+        margin-top: 8rem;
         line-height: 2.75rem;
     }
     .portfolio {
@@ -313,6 +334,10 @@ footer {
     }
     .featured {
         margin-right:2rem;
+        margin-left: -7rem;
+    }
+    .featured h1 {
+        font-size: 1.5rem;
     }
     .featured .project{
         border-radius:0rem;
