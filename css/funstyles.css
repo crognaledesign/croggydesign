@@ -242,6 +242,7 @@ footer {
     }
     .Headercontent {
         margin-top:2rem;
+        margin-left:13rem;
     }
     .japanese {
         margin: auto;
@@ -287,9 +288,10 @@ footer {
         padding-top: 0.1rem;
     }
     .TypeList {
-        font-size: 1.28rem;
+        font-size: 1.25rem;
         margin-top: 8rem;
         line-height: 2.75rem;
+        margin-left: 0rem;
     }
     .portfolio {
         margin-top: 4rem;
