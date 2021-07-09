@@ -410,7 +410,7 @@ footer {
         margin-right: -2rem;
     }
     .featured .descriptor {
-        margin-top: 6rem;
+        margin-top: 5rem;
     }
     .projectBio {
         padding-right: 0rem;
@@ -429,7 +429,7 @@ footer {
         margin-top: 6rem;
     }
     .arrow {
-        display: none;
+        display: inherit;
     }
     .portfolio {
         line-height: 1.5rem;
@@ -468,6 +468,7 @@ footer {
     .projectMobile {
         margin-top: 4rem;
         display: inherit;
+        margin-left: 12rem;
     }
     .featured .project {
         margin-top: 4rem;
@@ -476,13 +477,14 @@ footer {
     .featured .projectMobile {
         margin-top: 4rem;
         margin-bottom: -4rem;
+        margin-left: 11rem;
     }
     .featured .projectTitle {
-        margin-left: 10rem;
+        margin-left: 11rem;
         margin-right: -12rem;
     }
     .featured .projectBio {
-        margin-left: 10rem;
+        margin-left: 11rem;
         margin-right: -11rem;
     }
     .featured .descriptor {
@@ -501,11 +503,11 @@ footer {
         margin-right: 1rem;
     }
     .projectBio {
-        margin-left: 11rem;
+        margin-left: 13rem;
         margin-right:16rem;
     }
     .projectTitle {
-        margin-left: 11rem;
+        margin-left: 13rem;
         margin-right: -4rem;
         font-size: 1.75rem;
     }
@@ -521,6 +523,7 @@ footer {
         margin-left: 3rem;
     }
     .IconList {
+        margin-left: 6.5rem;
         margin-right: 1rem;
     }
     .email {
@@ -528,9 +531,5 @@ footer {
     }
     footer {
         padding-top: 2rem;
-    }
-    .featured .projectMobile {
-        margin-top: 4rem;
-        margin-bottom: -4rem;
     }
 }
