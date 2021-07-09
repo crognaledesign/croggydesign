@@ -503,11 +503,12 @@ footer {
         margin-right: 1rem;
     }
     .projectBio {
-        margin-left: 13rem;
+        margin-left: 13.5rem;
         margin-right:16rem;
+        font-size: 0.98rem;
     }
     .projectTitle {
-        margin-left: 13rem;
+        margin-left: 13.5rem;
         margin-right: -4rem;
         font-size: 1.75rem;
     }
