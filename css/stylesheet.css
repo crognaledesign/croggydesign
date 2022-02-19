@@ -170,14 +170,14 @@ footer {
     line-height: 1rem;
     color:#00ADEE;
 }
+.footericonsbox {
+    margin-left: 33rem;
+}
 .footericons {
     padding-right: 1rem;
     height: 2.5rem;
     padding-top: 0.5rem;
     margin-top:0.5rem;
-}
-.footericonsbox {
-    margin-left: 33rem;
 }
 .rights {
     font-size: 1rem;
