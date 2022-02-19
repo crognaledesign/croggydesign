@@ -101,7 +101,7 @@ buttonEl.addEventListener('mouseenter', enterButton, false);
 buttonEl.addEventListener('mouseleave', leaveButton, false); */
 
 
-let services = document.querySelectorAll('.selector');
+/* let services = document.querySelectorAll('.selector');
 services.forEach((service) => {
   service.addEventListener('mouseenter', (event) => {
     anime.remove(service.querySelector('.arrow'));
@@ -123,6 +123,6 @@ services.forEach((service) => {
     })
   })
 })
-
+*/
 
 

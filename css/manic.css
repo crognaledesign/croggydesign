@@ -36,8 +36,8 @@ nav ul li {
     display: inline-block;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: 'Dela Gothic One';
-    font-weight: normal;
+    font-family: 'Saira';
+    font-weight: 700;
     font-size: 1.5rem;
     padding-right:4rem;
     padding-left:4rem;
@@ -92,7 +92,8 @@ section h1 {
     position: absolute;
     float: right;
     top: 3rem;
-    font-family: 'Dela Gothic One';
+    font-family: 'Saira';
+    font-weight: 700;
     font-size: 2.5rem;
     color: #4F17FF;
     text-align: left;
@@ -240,9 +241,12 @@ footer {
     line-height: 1rem;
     color:#4F17FF;
 }
+.footericonsbox {
+    margin-left: 33rem;
+}
 .footericons {
-    margin-left: 35.75rem;
-    height: 3rem;
+    padding-right: 1rem;
+    height: 2.5rem;
     padding-top: 0.5rem;
     margin-top:0.5rem;
 }
