@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Saira:wght@400;600;700;800;900&display=swap');
 body { padding: 0; margin: 0 }
 #unity-container { position: absolute }
-#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
+#unity-container.unity-desktop { left: 50%; top: 45%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
 #unity-canvas { background: #231F20 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
@@ -14,3 +15,38 @@ body { padding: 0; margin: 0 }
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
 #unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+
+
+
+/* MY CSS */
+
+.controls {
+    position: relative;
+    top: 47.5rem;
+    text-align: center;
+}
+
+.documentation {
+    position: relative;
+    top: 60rem;
+    padding-bottom: 20rem;
+}
+.head1 {
+    font-family:'Saira';
+    font-size: 1.75rem;
+}
+.head2 {
+    font-family:'Saira';
+}
+.p1 {
+    font-family:'Saira';
+    font-size: 1.25rem;
+}
+blockquote {
+    font-family:'Saira';
+    font-size: 1.25rem;
+}
+figcaption {
+    font-family: 'Saira';
+
+}
