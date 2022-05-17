@@ -1,539 +1,297 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Saira:wght@400;600;700;800;900&display=swap');
-
-* {padding:0;margin:0;box-sizing:border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap');
 
 html {
-    margin: auto;
-    width: 100%;
     overflow-x: hidden;
-    font-size:16px;
+    background-color: #161616;
 }
-body {
-    width: 100%;
-    margin: auto;
-    overflow-x: hidden;
-    height: auto;
-    background-color:#00ADEE;
-    overflow-x: hidden;
-    background-image: url(background.png);
-    background-position-x: -30rem;
-    background-position-y: -16rem;
-    background-clip: inherit;
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 4rem;
 }
-.logo {
-    width: 8rem;
-    justify-content: center;
-}
-nav {
-    background-color: #F5F5F5;
-    width: 100%;
+.nav li {
+    display: inline;
     float: right;
-    right: 0;
-    top: 0;
-    z-index: 5;
+    margin-top: 3rem;
+    font-family: 'Saira', cursive;
+    font-weight: 600;
 }
-nav ul li {
-    display: inline-block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-family: 'Saira';
-    font-weight: 700;
-    font-size: 1.5rem;
-    padding-right:4rem;
-    padding-left:4rem;
-}
-nav a {
-    color: black;
+.nav li a{
     text-decoration: none;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s;
-}
-nav a:hover {
-    color:#00ADEE;
-}
-.Headercontent, .HeadercontentMobile {
-    margin-top: 3.65rem;
-    font-size: 2rem;
-    font-family: 'Saira';
-    margin-left: 14rem;
-    line-height: 3.5rem;
-    padding-bottom: 1.6rem;
     color: #F5F5F5;
+    margin: 2rem;
 }
-.japanese {
-    margin: auto;
-    background-color: #F5F5F5;
-    float:right;
-    right: 0;
-    padding-top:7rem;
-    top:0;
-    height: 200%;
-    width: 24rem;
-    padding-left:3rem;
-    position: fixed;
-    z-index: 4;
-    position: absolute;
-    float: right;
-    top: 0;
-    padding-right: 0rem;
-    font-family: 'Dela Gothic One';
-    font-size: 18rem;
+.nav li a:hover {
     color: #00ADEE;
-    display: block;
-    list-style-type: none;
-    line-height: 17rem;
 }
-.level21 {
-    margin-top: 1rem;
-}
-.IconList {
-    list-style-type: none;
-    text-decoration: none;
-    padding-right: 1rem;
-    margin-left: 16rem; 
-    margin-top: 4rem;
-}
-.IconList img {
-    width: 3.5rem;
-    padding-top: 0.2rem;
-}
-.TypeList {
-    line-height: 3.75rem;
-    padding-top: 0.5rem;
-    list-style-type: none;
-    text-decoration: none;
-    padding-right: 1rem;
-    margin-left: 1rem; 
-    font-family: 'Saira';
-    font-size: 2rem;
-    top: 0;
-    margin-top: 4rem;
-    font-weight: 700;
-    padding-top: 0;
-    padding-bottom: 1rem;
+.scroll {
+    writing-mode: vertical-rl;
+    position: relative;
+    font-family: 'Noto Sans JP';
+    right: 8rem;
+    bottom: 50rem;
+    font-size: 6rem;
+    line-height: 8rem;
     color: #F5F5F5;
+    font-weight: 900;
+}
+.scrollEigo {
+    /*writing-mode: vertical-rl;*/
+    position: relative;
+    font-family: 'Saira';
+    right: 6.5rem;
+    bottom: 55.5rem;
+    font-size: 2rem;
+    line-height: 8rem;
+    color: #F5F5F5;
+    font-weight: 600;
+}
+.scrollArrow {
+    width: 4rem;
+    transform: rotate(90deg);
+    position: relative;
+    top: 9rem;
+}
+.intro {
+    font-family: 'Saira', sans-serif;
+    margin-top:36rem;
+    margin-bottom:4rem;
+    font-size: 2rem;
+    color: #F5F5F5;
+}
+.featured, .title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2.5rem;
+    color: #161616;
+}
+.projectHead{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2.5rem;
+    color: #F5F5F5;
+}
+.studyPage {
+    margin-bottom: 4rem;
+}
+.studyTitle{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2.5rem;
+    color: #F5F5F5;
+}
+.studyBodyHead{
+    font-family: 'Saira', sans-serif;
+    font-size: 2rem;
+    color: #F5F5F5;
+}
+.studyBody{
+    font-family: 'Saira', sans-serif;
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+.projectHeader {
+    position: relative;
+    top: -10rem;
+    left: -0.5rem;
+    z-index: -2;
+    margin-bottom: -28rem;
+    /*margin-bottom: -32rem;*/
+}
+.headerImage {
+    filter:opacity(35%);
+    height: 10%;
+}
+.headerType {
+    z-index: 2;
+    font-family: 'Saira';
+    font-weight: 900;
+    font-size: 7rem;
+    line-height: 5.5rem;
+    position: relative;
+    top: -45rem;
+    color: #F5F5F5;
+}
+.work {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    padding-bottom: 20rem;
+    padding-top: 12rem;
+    margin-left: -2rem;
+    padding-left: 2rem; 
+    margin-right: -2rem;
+    padding-right: 2rem;
+    background-color:#F5F5F5;
+}
+.projectPage {
+    margin-bottom: 0rem;
+    margin-top: 4rem;
+    padding-bottom: 0rem;
+    padding-top: 6rem;
+    margin-left: -2rem;
+    padding-left: 2rem; 
+    margin-right: -2rem;
+    padding-right: 2rem;
+    color: #F5F5F5;
+    /*background-color: #00adee;*/
+}
+.project {
+    font-family: 'Saira', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding-top: 3rem;
+    color: #161616;
 }
 .projectTitle {
-    padding-right: 1rem;
-    margin-left: 1rem; 
     font-family: 'Saira';
+    font-weight: 600;
     font-size: 2rem;
-    top: 0;
-    margin-top: 0rem;
-    font-weight: 700;
-    padding-top: 0;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    margin-top: -16rem;
     color: #F5F5F5;
 }
-.projectBio {
-    padding-right: 1rem;
+.caption {
+    font-family: 'Saira', sans-serif;
+    font-size: 1.5rem;
+    color: #161616;
+}
+.TypeList, .TypeList2 {
+    list-style-type: none;
+    text-decoration: none;
     font-family: 'Saira';
-    font-size: 1.4rem;
-    top: 0;
-    margin-left: 1rem;
-    margin-top: 0rem;
-    font-weight: 600;
-    padding-top: 0;
-    padding-bottom: 1rem;
-    color: black;
+    font-size: 1.75rem;
+    margin-top: 4rem;
+    font-weight: 500;
+    color: #F5F5F5;
+    line-height: 4rem;
 }
-.descriptor {
-    margin-top: 12rem;
-}
-.portfolio {
-    background-color: #F5F5F5;
-    width: 100%;
-    padding-bottom: 14rem;
-    margin: auto;
-    margin-top: 6rem;
+.intro2 {
+    font-family: 'Saira', sans-serif;
+    margin-top:8rem;
+    margin-bottom:4rem;
+    font-size: 2rem;
+    color: #F5F5F5;
 }
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #F5F5F5;
-    padding-bottom: 2rem;
-    padding-top:2rem;
+    background-color: #161616;
+    padding-bottom: 4rem;
+    padding-top:0rem;
 }
 .connect {
     font-size: 1.5rem;
     font-family: 'Saira';
-    margin-left: 15rem;
     font-weight: 700;
     line-height: 1rem;
+    color: #F5F5F5;
 }
 .email {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Saira';
-    margin-left: 24.25rem;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 0.5rem;
     color:#00ADEE;
 }
-.footericonsbox {
-    margin-left: 33rem;
-}
 .footericons {
-    padding-right: 1rem;
-    height: 2.5rem;
+    height: 3rem;
     padding-top: 0.5rem;
     margin-top:0.5rem;
+    color: #F5F5F5;
+}
+.footercolour {
+    filter: invert(100%) sepia(16%) saturate(54%) hue-rotate(162deg) brightness(111%) contrast(92%);
 }
 .rights {
     font-size: 1rem;
     font-family: 'Saira';
     font-weight: 400;
-    line-height: 0rem;
-    vertical-align: center;
-    margin-left: 15rem;
-    padding-bottom: 1.15rem;
+    line-height: 2rem;
+    vertical-align: top;
+    padding-bottom: 1rem;
+    color:#F5F5F5;
 }
-.project {
-    margin-left: 14rem;
-    margin-top: 6rem;
+.hobbylist {
+    margin-bottom: 4rem;
 }
-.projectMobile {
-    margin-left: 14rem;
-    margin-top: 6rem;
-}
-.arrow {
-    width: 2rem;
-}
-.featured .project{
-    margin-top: 4rem;
-}
-.featured .projectMobile{
-    margin-top: 4rem;
-}
-.featured .descriptor {
-    margin-top: 9rem;
-}
-.featured .projectTitle {
-    font-size: 2.5rem;
-}
-.featured .projectBio {
-    font-size: 2rem;
+.resume {
+    font-family: 'Saira';
+    font-size: 1.25rem;
+    font-weight: 400;
     color: #F5F5F5;
 }
-.featured .arrow {
+.links a{
+    text-decoration: none;
+    color: #00ADEE;
+}
+.links a:hover{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+.links {
+    margin-bottom: 8rem;
+}
+.imgleft {
+    width: auto;
+    height: 100%;
+}
+.socials img {
     width: 2.5rem;
+    margin-top: -2rem;
+}
+.socials li {
+    display: inline;
+    margin-top: -2rem;
+    padding-right: 2rem;
+    line-height: 4rem;
 }
 
+/* PICTURE POSITIONING */
 
-@media screen and (min-width: 1761px) {
-    .HeadercontentMobile {
-        display: none;
-    }
-    .projectMobile {
-        display: none;
-    }
+.picture2 {
+    position: relative;
+    bottom: 20.225rem;
+    width: 35%;
+}
+.picture3 {
+    position: relative;
+    bottom: 13.7rem;
+    width: 50%;
+}
+.picture4 {
+    position: relative;
+    bottom: 3.5rem;
+    width: 50%;
+}
+.picture5 {
+    position: relative;
+    bottom: 18.25rem;
+    width: 50%;
+}
+.picture6 {
+    position: relative;
+    left: 39.55rem;
+    top: -27.55rem;
+    width: 65%;
+}
+.picture7 {
+    position: relative;
+    left: 10.07rem;
+    top: -33rem;
+    bottom: 0rem;
+    width: 65%;
+}
+.picture8 {
+    position: relative;
+    bottom: 33.60rem;
+    width: 50%;
+}
+.projectgrid {
+    margin-bottom: -12rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 
-@media screen and (min-width: 1025px) {
-    .HeadercontentMobile {
-        display: none;
-    }
-    .projectMobile {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1760px) {
-    .Headercontent h2 {
-        font-size: 1.6rem;
-        line-height: 2.5rem;
-        margin-top: 0rem;
-        padding-right: 2rem;
-    }
-    .Headercontent {
-        margin-top:2rem;
-    }
-    .japanese {
-        margin: auto;
-        background-color: #F5F5F5;
-        float:right;
-        right: 0;
-        padding-top:5.5rem;
-        top:0;
-        height: 150%;
-        width: 16rem;
-        padding-left:3rem;
-        position: fixed;
-        z-index: 4;
-        position: absolute;
-        float: right;
-        top: 0;
-        padding-right: 6rem;
-        font-family: 'Dela Gothic One';
-        font-size: 10rem;
-        color: #00ADEE;
-        display: block;
-        list-style-type: none;
-        line-height: 10rem;
-    }
-    aside {
-        width: 14rem;
-        height:80rem;
-    }
-    nav ul li {
-        font-size: 1.05rem;
-        padding-right:3rem;
-        padding-left:3rem;
-    }
-    .logo {
-        width: 5.25rem;
-        padding-bottom: -0.25rem;
-    }
-    .IconList {
-        margin-top:0.25rem;
-    }
-    .IconList img{
-        width: 2.5rem;
-        padding-top: 0.1rem;
-    }
-    .TypeList {
-        font-size: 1.45rem;
-        margin-top: 0.25rem;
-        line-height: 2.75rem;
-    }
-    .portfolio {
-        margin-top: 4rem;
-        margin-bottom: 0rem;
-        padding-bottom: 12rem;
-    }
-    .connect {
-        font-size: 1rem;
-    }
-    .email {
-        font-size: 0.85rem;
-        margin-left: 8rem;
-    }
-    .footericons {
-        height: 2.5rem;
-        margin-left: 12rem;
-    }
-    .rights {
-        font-size: 0.85rem;
-    }
-    footer {
-        padding-top: 1rem;
-        padding-bottom: 1.5rem;
-        z-index: 3;
-    }
-    .descriptor {
-        margin-top: 8rem;
-    }
-    .projectBio{
-        font-size: 1rem;
-        padding-right: 6rem;
-    }
-    .projectTitle {
-        font-size: 1.5rem;
-    }
-    .project {
-        margin-top: 2rem;
-        width: 50%;
-    }
-    .projectMobile {
-        margin-top: 2rem;
-        width: 50%;
-    }
-    .arrow {
-        width: 1.5rem;
-    }
-    .featured {
-        margin-right:2rem;
-    }
-    .featured .project{
-        border-radius:0rem;
-        margin-top: 0rem;
-        width: 100rem;
-    }
-    .featured .projectMobile{
-        border-radius:0rem;
-        margin-top: 0rem;
-        width: 100rem;
-    }
-    .featured .descriptor {
-        margin-top: 4.75rem;
-        padding-right:2rem;
-    }
-    .featured .projectTitle {
-        font-size: 1.75rem;
-        margin-bottom: 0rem;
-    }
-    .featured .projectBio {
-        font-size: 1rem;
-        color: #F5F5F5;
-        margin-top: 0rem;
-    }
-    .featured .arrow {
-        width: 1.5rem;
-    }
-    .footericons {
-        margin-left: 24rem;
-    }
-    .email {
-        margin-left: 18.5rem;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .japanese {
-        display: none;
-    }
-    .email {
-        margin-left: 5rem;
-    }
-    .footericons {
-        margin-left: 10.5rem;
-    }
-    .Headercontent {
-        display: none;
-    }
-    .HeadercontentMobile {
-        font-size: 1.5rem;
-        margin-left: 10rem;
-    }
-    .IconList {
-        margin-left: 12rem;
-    }
-    .nav li{
-        padding-right: 2rem;
-        font-size:1rem;
-    }
-    .featured .project {
-        margin-left: 10rem;   
-    }
-    .featured .projectMobile {
-        margin-left: 10rem; 
-        margin-right: 0rem;  
-    }
-    .featured .projectTitle {
-        margin-right: -2rem;
-    }
-    .featured .descriptor {
-        margin-top: 5rem;
-    }
-    .projectBio {
-        padding-right: 0rem;
-   
-    }
-    .project {
-        margin-left: 10rem;
-        margin-top: 0rem;
-    }
-    .projectMobile {
-        margin-left: 10rem;
-        margin-top: 0rem;
-        display: none;
-    }
-    .descriptor {
-        margin-top: 6rem;
-    }
-    .arrow {
-        display: inherit;
-    }
-    .portfolio {
-        line-height: 1.5rem;
-        margin-top: 0rem;
-        padding-bottom: 10rem;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .HeadercontentMobile h2 {
-        margin-right: 8rem;
-        font-size: 2rem;
-    }
-    .connect {
-        margin-left: 11rem;
-    }
-    .rights {
-        margin-left: 11rem;
-    }
-    .footericons {
-        margin-left: 20rem;
-    }
-    .email {
-        margin-left: 14.5rem;
-    }
-    .nav {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .project {
-        margin-top: 4rem;
-        display: none;
-    }
-    .projectMobile {
-        margin-top: 4rem;
-        display: inherit;
-        margin-left: 12.5rem;
-    }
-    .featured .project {
-        margin-top: 4rem;
-        margin-bottom: -4rem;
-    }
-    .featured .projectMobile {
-        margin-top: 4rem;
-        margin-bottom: -4rem;
-        margin-left: 11rem;
-    }
-    .featured .projectTitle {
-        margin-left: 11rem;
-        margin-right: -12rem;
-    }
-    .featured .projectBio {
-        margin-left: 11rem;
-        margin-right: -11rem;
-    }
-    .featured .descriptor {
-        margin-top: 5.65rem;
-    }
-    .arrow {
-        display: none;
-    }
-    .HeadercontentMobile {
-        text-align: left;
-        margin-left: 4.68rem;
-        font-size: 1.25rem;
-        margin-bottom: 3rem;
-    }
-    .HeadercontentMobile h2 {
-        margin-right: 1rem;
-    }
-    .projectBio {
-        margin-left: 13.5rem;
-        margin-right:16rem;
-        font-size: 0.98rem;
-    }
-    .projectTitle {
-        margin-left: 13.5rem;
-        margin-right: -4rem;
-        font-size: 1.75rem;
-    }
-    .descriptor {
-        margin-top: 2rem;
-        margin-bottom: -4rem;
-        padding-bottom: 1rem;
-    }
-    .connect {
-        margin-left: 3rem;
-    }
-    .rights {
-        margin-left: 3rem;
-    }
-    .IconList {
-        margin-left: 6.5rem;
-        margin-right: 1rem;
-    }
-    .email {
-        margin-left: 14.5rem;
-    }
-    footer {
-        padding-top: 2rem;
-    }
-}
